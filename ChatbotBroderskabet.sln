@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatbotBroderskabet", "ChatbotBroderskabet\ChatbotBroderskabet.csproj", "{8819BBD3-37ED-4657-97A3-4174C001D7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatbotBroderskabet.Server", "ChatbotBroderskabet.Server\ChatbotBroderskabet.Server.csproj", "{9595D75A-3C54-49A7-AB7C-D0C8EE95AA14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8819BBD3-37ED-4657-97A3-4174C001D7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8819BBD3-37ED-4657-97A3-4174C001D7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8819BBD3-37ED-4657-97A3-4174C001D7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8819BBD3-37ED-4657-97A3-4174C001D7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9595D75A-3C54-49A7-AB7C-D0C8EE95AA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9595D75A-3C54-49A7-AB7C-D0C8EE95AA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9595D75A-3C54-49A7-AB7C-D0C8EE95AA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9595D75A-3C54-49A7-AB7C-D0C8EE95AA14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFCC31F4-0D73-4C73-95CD-B7C68D9D0424}
+	EndGlobalSection
+EndGlobal

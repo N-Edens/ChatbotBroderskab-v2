@@ -1,0 +1,29 @@
+﻿@page "/dicecup"
+
+<PageTitle>Dicecup</PageTitle>
+
+<h1 style="color: red;">NIY</h1>
+@code {
+    private int dice1;
+    private int dice2;
+
+    private void RollDices()
+    {
+        var random = new Random();
+        dice1 = random.Next(1, 7);
+        dice2 = random.Next(1, 7);
+    }
+}
+
+<div class="dice-container">
+    <Dice Value="@dice1" />
+    <Dice Value="@dice2" />
+    <button class="btn btn-primary" @onclick="RollDices">Roll Dices</button>
+</div>
+
+<style>
+    .dice-container {
+        display: flex;
+        align-items: center;
+    }
+</style>
